@@ -4,8 +4,8 @@ import numpy as np
 from shapely.geometry import Point
 from sympy import Point2D
 
-from nuplan_devkit.nuplan.common.maps.abstract_map import AbstractMap
-from nuplan_devkit.nuplan.common.maps.abstract_map_objects import GraphEdgeMapObject
+from nuplan.common.maps.abstract_map import AbstractMap
+from nuplan.common.maps.abstract_map_objects import GraphEdgeMapObject
 
 from nuplan.common.maps.maps_datatypes import SemanticMapLayer
 from nuplan.planning.metrics.evaluation_metrics.base.metric_base import MetricBase
